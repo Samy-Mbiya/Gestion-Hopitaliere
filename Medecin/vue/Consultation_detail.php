@@ -6,20 +6,8 @@ require 'Navbar.php';
   <!-- Contenue
     ================================================== -->
   <section id="dropdowns">
-    <div>
-      <!--  
-          <div>
-           <img src="img/LOGO CME.jpg" style="float: left;" width="100"> 
-          </div>
-         -->
-      <div class="text-center">
-        <h1> CENTRE MEDICAL DE L’ESPOIR </h1>
-        <div><em>5 bis, avenue Mont des Arts C/Lingwala</em></div>
-        <div> <em>Phone : (+243)812902286-815203932</em> </div>
-        <div><em>cliniquedelespoir01@gmail.com et michelmusafiri@gmail.com</em></div>
-        <div><em>www.clinique-de-l-espoir.org</em></div>
-      </div>
-    </div>
+    <!--Titre -->
+    <?php require 'cme.php'; ?>
     <div class="text-center">
       <h3> <u>DETAIL DE LA CONSULTATION</u></h3>
     </div>
@@ -230,9 +218,18 @@ require 'Navbar.php';
         </div>
       </div>
     </div>
-    
-</div>
 
+</div>
+<div style="float: right;">
+  <div style="text-align: center;">
+    <?php $today = date("d/m/Y");
+    echo "Fait à Kinshasa, le " . $today ?>
+    <div style="text-align: center;">
+      <!-- Information du Personnel  -->
+      <?php require 'info_user.php'; ?>
+    </div>
+  </div>
+</div>
 </section>
 </div>
 </div>

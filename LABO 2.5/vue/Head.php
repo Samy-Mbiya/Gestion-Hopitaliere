@@ -19,7 +19,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top" id="non-print" >
       <div class="navbar-inner" id="non-print">
         <div class="container" >
-          <a class="brand" href="#"><img src="img/codingboss.png" width="100" id="non-print"></a>
+          <a class="brand" href="#"><img src="img/LOGO1.png" width="100" id="non-print"></a>
           <div class="nav-collapse collapse">
             <ul class="nav" id="non-print">
               <li class="">

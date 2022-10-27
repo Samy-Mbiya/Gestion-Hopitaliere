@@ -46,22 +46,22 @@
                       if ($defaut=="Négatif") {
                         ?>
                           <select name="resultat" id="resultat">
-                            <option value="Négatif">Négatif</option>
-                            <option value="Positif">Positif</option>
+                            <option value="NEGATIF">NEGATIF</option>
+                            <option value="POSITIF">POSITIF</option>
                           </select>
                    <?php
                       }if($defaut=="Positif") {?>
                         <select name="resultat" id="resultat">
-                            <option value="Positif">Positif</option>
-                            <option value="Négatif">Négatif</option>
+                            <option value="POSITIF">POSITIF</option>
+                            <option value="NEGATIF">NEGATIF</option>
                           </select><?php 
                       } if ($defaut!="Négatif" && $defaut!="Positif") {
                         
                       ?>
                         <select name="resultat" id="resultat">
                           <option value="choix">-Selection-</option>
-                          <option value="Négatif">Négatif</option>
-                          <option value="Négatif">Positif</option>
+                          <option value="NEGATIF">NEGATIF</option>
+                          <option value="POSITIF">POSITIF</option>
                         </select>
 
                      <?php  }
